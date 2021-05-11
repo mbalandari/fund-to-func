@@ -1,3 +1,5 @@
-var person = {};
-person.name = "Mrs. White";
-console.log(person);
+function printHello() { console.log("Hello"); }
+
+setTimeout(printHello, 1000);
+
+console.log("Me first!");
